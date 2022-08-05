@@ -4,6 +4,12 @@
 
 Console.WriteLine("Введите число");
 int n = Convert.ToInt32(Console.ReadLine());
-int M = (n%10);
-Console.WriteLine($"Последняя цифра числа {n} это {M});
-
+if (n>99 || n<1000)
+{
+    int M = (n%10);
+Console.WriteLine( $"Последняя цифра числа {n} это {M}" );
+}
+else
+{
+    Console.WriteLine("Вы ввели некорректное число" );
+}

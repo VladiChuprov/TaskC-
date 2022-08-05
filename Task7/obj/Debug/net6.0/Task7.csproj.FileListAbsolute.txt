@@ -3,3 +3,13 @@ C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\Task7.Ge
 C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\Task7.AssemblyInfoInputs.cache
 C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\Task7.AssemblyInfo.cs
 C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\Task7.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\bin\Debug\net6.0\Task7.exe
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\bin\Debug\net6.0\Task7.deps.json
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\bin\Debug\net6.0\Task7.runtimeconfig.json
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\bin\Debug\net6.0\Task7.dll
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\bin\Debug\net6.0\Task7.pdb
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\Task7.dll
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\refint\Task7.dll
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\Task7.pdb
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\Task7.genruntimeconfig.cache
+C:\Users\Vladimir\Desktop\учение\C#\TaskC#\Task7\obj\Debug\net6.0\ref\Task7.dll
