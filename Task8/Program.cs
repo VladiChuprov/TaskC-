@@ -6,8 +6,8 @@ Console.WriteLine("Укажите целое число");
 int num = Convert.ToInt32(Concole.ReadLine());
 int i = 2;
 for ( i <= num ; i += 2 )
-        Console.WriteLine($"Четные числа в диапазоне до {num} ");
-        Console.Write(+i);
+        Console.WriteLine(i);
+        // Console.Write(+i);
 
 // Console.WriteLine("Введите длину: ");
 // int n = int.Parse(Console.ReadLine());
