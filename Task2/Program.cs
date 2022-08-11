@@ -9,10 +9,13 @@ int numb2 = Convert.ToInt32(Console.ReadLine());
   if ( numb1 > numb2 )
 { 
 Console.WriteLine($" Число {numb1} > {numb2} ");
+} if ( numb1 < numb2 )
+{ 
+  Console.WriteLine($"Число {numb2} > {numb1} ");
 }
 else
 {
-    Console.WriteLine($"Число {numb2} > {numb1} ");
+    Console.WriteLine($"Число {numb2} = {numb1} ");
 }
 
 

@@ -6,8 +6,8 @@ Console.WriteLine("Введите трехзначное число");
 int n = Convert.ToInt32(Console.ReadLine());
 if (n > 99 & n<1000 )
 {
-    int M = (n % 10);
-    Console.WriteLine($"Последняя цифра числа {n} это {M}");
+    int m = (n % 10);
+    Console.WriteLine($"Последняя цифра числа {n} это {m}");
 }
 else
 {

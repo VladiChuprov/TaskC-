@@ -7,9 +7,9 @@
 
 Console.WriteLine("Введите 3х значное число  ");
 int numbFirst = Convert.ToInt32(Console.ReadLine());
-int Convert(int numb)
+int SecondNumb(int numb)
 {
-    result((numb / 10) % 10);
+    return (numb / 10) % 10;
 }
-int result =Convert(numbFirst);
+int result = SecondNumb(numbFirst);
 Console.WriteLine($"Вторая цифра числа {numbFirst} это {result}");
