@@ -18,11 +18,11 @@
 Console.Write("Please enter the 1st number: ");
 int firstNum = Convert.ToInt32(Console.ReadLine());
 
-bool Del(int num)
+int Del(int num)
 {
     return (num / 10) % 10;
 }
-bool result = Del(firstNum);
+int  result = Del(firstNum);
 Console.WriteLine(result ? $"Вторая цифра  это {result}" : "Указано некорректное число");
 
 
