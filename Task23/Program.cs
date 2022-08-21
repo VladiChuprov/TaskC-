@@ -8,9 +8,8 @@
 
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
-
 int i = 1;
-Console.WriteLine($"Куб чисел от 1 до {number}");
+ Console.WriteLine($"Куб чисел от 1 до {number}");
 while (i <= number)
 {
     Console.WriteLine($" {i}  | {Math.Pow(i, 3)}");
