@@ -7,11 +7,14 @@ Console.Write("Введите число А : ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число B : ");
 int b = Convert.ToInt32(Console.ReadLine());
-int Sum(int num1, int num2)
+double Sum(int num1, int num2)
 {
-    int prod = 1;
-    for (int count = 1; count <= num2; count++) prod *= num1;
+    double prod = 1;
+    if (num2 >=0 )
+    {
+        for (int count = 1; count <= num2; count++) prod *= num1;
+    }else for (int count1 = -1; count1 <= num2; count1--) prod *= 1/num1;
     return prod;
 }
-int result = Sum(a, b);
-Console.WriteLine($"{a} в степени {b}  " + result);
+double result = Sum(a, b);
+Console.WriteLine($"{a} в степени {b}  " + Math.Round(result,2));
