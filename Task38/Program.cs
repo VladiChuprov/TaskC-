@@ -22,10 +22,10 @@ void PrintArr(double[] arr)
     Console.Write("[");
     for (int i = 0; i < arr.Length - 1; i++)
     {
-        if (i < arr.Length) Console.Write($" { Math.Round(arr[i], 1)} ,");
+        if (i < arr.Length) Console.Write($" { Math.Round(arr[i], 1) } ,");
 
     }
-    Console.Write($" {Math.Round(arr[arr.Length - 1],1)}");
+    Console.Write($" {Math.Round(arr[arr.Length - 1],1) }");
     Console.Write(" ]");
 }
 
