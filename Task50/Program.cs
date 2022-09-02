@@ -45,10 +45,11 @@ void CheckElement(int[,] matrix, int row1, int col1)
                if (row1 >= matrix.GetLength(0) || col1 >= matrix.GetLength(1))
             {
                 Console.WriteLine("Элемента с такими индексами нет ");
+                 
             }
             
     
-    Console.WriteLine($"Элент с индексами ({row1};{col1}) это {matrix[row1, col1]}");
+    Console.WriteLine($"Элемент с индексами ({row1};{col1}) это {matrix[row1-1, col1-1]}");
     
 }
 

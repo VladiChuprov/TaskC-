@@ -55,7 +55,7 @@ double[] MidleMult(int[,] matrix)
 void PrintArr(double[] arr)
 {
     System.Console.WriteLine("Среднее арифметическое столбца");
-    Console.Write(" [");
+    Console.Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
 
