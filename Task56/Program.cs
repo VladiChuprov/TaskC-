@@ -32,7 +32,7 @@ void PrintMatrix(int[,] matrix)
 void MinColSum(int[,] matrix)
 {
     int temp = 0;
-    int minSum = 1000000;
+    int minSum = 1000000; // Не смог найти метод суммы элементов матрицы
     for (int i = 0; i < matrix.GetLength(0); i++)
     {        
         int minSum1 = 0;
@@ -47,10 +47,10 @@ void MinColSum(int[,] matrix)
         }
         System.Console.Write($" {minSum} ");
     }
-    System.Console.WriteLine($"\nИндекс минимальной строки {temp}");
+    System.Console.WriteLine($"\nИндекс строки с минимальной суммой элементов {temp}");
 }
 
-int[,] matrix = CreateNewMatrixRnd(5, 5, 0, 100);
+int[,] matrix = CreateNewMatrixRnd(9, 5, 0, 100);
 PrintMatrix(matrix);
 System.Console.WriteLine("Cумма каждой  строки");
 MinColSum(matrix);

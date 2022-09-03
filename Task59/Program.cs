@@ -12,14 +12,13 @@ int[,] CreateNewMatrixRnd(int row, int col, int min, int max)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
 
-            matrix[i, j] = rnd.Next(min, max + 1);
+            matrix[i, j] = new Random().Next(min, max + 1);
     }
     return matrix;
 }
 
 void PrintMatrix(int[,] matrix)
 {
-
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         Console.Write(" [");
@@ -28,8 +27,6 @@ void PrintMatrix(int[,] matrix)
             if (j < matrix.GetLength(1) - 1) Console.Write($" {matrix[i, j],3} ,");
             else Console.Write($" {matrix[i, j],3}");
         }
-
-
         Console.WriteLine(" ]");
     }
 }
@@ -57,7 +54,6 @@ void PrintArr(int[] arr)
     for (int i = 0; i < arr.Length - 1; i++)
     {
         if (i < arr.Length) Console.Write($" {arr[i]} ,");
-
     }
     Console.Write(arr[arr.Length - 1]);
     Console.WriteLine(" ]");
@@ -84,7 +80,6 @@ int[,] DeletColRowMatrix(int[,] matrix, int[] arr)
 }
 void PrintDeletMatrix(int[,] matrix)
 {
-
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         Console.Write(" [");
